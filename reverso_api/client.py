@@ -6,7 +6,6 @@ from reverso_context_api.session import ReversoSession
 FAVORITES_PAGE_SIZE = 50
 HISTORY_PAGE_SIZE = 50
 
-
 class Client(object):
     def __init__(self, source_lang, target_lang, credentials=None, user_agent=None):
         """
